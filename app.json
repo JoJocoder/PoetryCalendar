@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/Collections/Collections",
+    "pages/CollectionDetail/Detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "诗词小历",
+    "navigationBarTextStyle": "white"
+  },
+  "debug": true
+}

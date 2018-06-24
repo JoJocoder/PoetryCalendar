@@ -1,0 +1,26 @@
+
+<!--index.wxml-->
+<view class="container">
+   
+  <view class="contentContainer ">
+
+    <view class="contentTextContainer ">
+      <text class="content">{{content}}</text>
+    </view>
+    <view class="taContainer">
+<view class='titleContainer'>
+      <text class="title uu">{{title}}</text>
+</view>
+<view class='authorContainer'>
+   <text class="author uu">{{author}}</text>
+      </view>
+  </view>
+    </view>
+  <view class='bottomcontainer'>
+
+<button class='like'  bindtap="like">
+<image class="randomicon" wx:if="{{collection}}" src='../images/like.png'></image>
+    <image class="randomicon" wx:else src='../images/notlike.png'></image>
+</button>
+ </view>
+</view>

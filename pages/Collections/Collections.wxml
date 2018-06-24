@@ -1,0 +1,7 @@
+<!--pages/Collections/Collections.wxml-->
+
+<view class='container'>
+<view class="className" style="background-color: rgb(225, 218, 211); height:{{className_height}}px" wx:for="{{array}}" wx:key="item">   
+  <button class="items" bindtap="moveto" id="{{item.id}}"><text class='poetname'>{{item.name}}</text></button>  
+</view>  
+</view>

@@ -1,0 +1,55 @@
+
+<!--index.wxml-->
+<view class="container">
+<view class="calendarcontainer">
+<view class="firstContainer">
+ <view class="dateContainer">
+  <text class="date">{{today}}</text>
+  </view>
+   <view class="yiTextContainer">
+  <text class="yi">宜</text>
+  </view>
+     <view class="yiItemContainer">
+  <text class="yiItem">{{yi}}</text>
+  </view>
+  </view>
+  <view class='firstContainer'>
+  <view class="lunarContainer">
+    <text class="lunar">{{lunar}}</text>
+    </view>
+  <view class="yiTextContainer">
+  <text class="ji">忌</text>
+  </view>
+   <view class="yiItemContainer">
+  <text class="jiItem">{{ji}}</text>
+  </view>
+    </view>
+
+  <view class="contentContainer ">
+
+    <view class="contentTextContainer ">
+      <text class="content">{{content}}</text>
+    </view>
+    <view class="taContainer">
+<view class='titleContainer'>
+      <text class="title uu">{{title}}</text>
+</view>
+<view class='authorContainer'>
+   <text class="author uu">{{author}}</text>
+      </view>
+  </view>
+    </view>
+
+  <view class='bottomcontainer'>
+
+<button class='like'  hover-class='btn_hover' bindtap="like">
+<image class="randomicon" wx:if="{{collection}}" src='../images/like.png'></image>
+    <image class="randomicon" wx:else src='../images/notlike.png'></image>
+</button>
+<button class='next' hover-class='btn_hover' bindtap="next"><image class='randomicon' src="../images/random.png"/></button>
+<button class='share' hover-class='btn_hover' open-type="share"><image class='randomicon' src="../images/share.png"/></button> 
+<button class='my' hover-class="other-button-hover" bindtap="moveto"><image class='randomicon' src="../images/collection.png"/></button>
+
+</view>
+</view>
+</view>
