@@ -19,7 +19,7 @@
 - [justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)
 
 
-## Thank to
+## Thanks to
 - [程序员老黄历](https://github.com/xujinyang/CoderCalendar-WeApp)
 - [chinese-poetry](https://github.com/chinese-poetry/chinese-poetry)
 
